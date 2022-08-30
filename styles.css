@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 body {
@@ -44,4 +46,23 @@ body {
 
 #health {
     color: #59b300;
+}
+
+.content-row {
+    /* display: flex;
+    flex-flow: row wrap; */
+}
+
+.info {
+    width: 500px;
+}
+
+.bHealth {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+img {
+    display: block;
+    max-width: 50px;
 }
