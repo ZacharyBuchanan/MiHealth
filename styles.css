@@ -49,12 +49,13 @@ body {
 }
 
 .content-row {
-    /* display: flex;
-    flex-flow: row wrap; */
+    display: flex;
+    justify-content: space-between;
 }
 
 .info {
     width: 500px;
+    padding: 15px 50px;
 }
 
 .bHealth {
@@ -62,7 +63,23 @@ body {
     font-weight: 900;
 }
 
-img {
-    display: block;
-    max-width: 50px;
+.image-container {
+    height: 400px;
+    width: 80%;
+}
+
+.image-row {
+    display: flex;
+}
+
+.image-box-apple {
+    background-image: url(images/apple-breakfast-quinoa-7.jpeg);
+}
+
+.image-box-pasta {
+    background-image: url(images/pasta-salad-recipe-for-lunch.jpeg);
+}
+
+.image-box-shrimp {
+    background-image: url(images/Screenshot_208.jpeg);
 }
