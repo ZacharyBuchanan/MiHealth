@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color:  #d9d9d9;
+    background-color: #d9d9d9;
 }
 
 .navbar {
@@ -48,18 +48,23 @@ body {
     color: #59b300;
 }
 
+.content-body {
+    display: flex;
+    justify-content: space-around;
+}
+
 .content-row {
     display: flex;
-    justify-content: space-between;
 }
 
 .info {
+    height: 100%;
     width: 500px;
     padding: 15px 50px;
 }
 
 .bHealth {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 900;
 }
 
@@ -70,16 +75,21 @@ body {
 
 .image-row {
     display: flex;
+    justify-content: space-around;
+    height: 100%;
 }
 
 .image-box-apple {
     background-image: url(images/apple-breakfast-quinoa-7.jpeg);
+    width: 250px;
 }
 
 .image-box-pasta {
     background-image: url(images/pasta-salad-recipe-for-lunch.jpeg);
+    width: 250px;
 }
 
 .image-box-shrimp {
     background-image: url(images/Screenshot_208.jpeg);
+    width: 250px;
 }
